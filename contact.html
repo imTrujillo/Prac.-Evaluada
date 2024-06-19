@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>🤑Contáctanos</title>
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <!-- Google fonts-->
+    <link
+        href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i"
+        rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i" rel="stylesheet" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/styles.css" rel="stylesheet" />
+</head>
+
+<body>
+    <header>
+        <h1 class="site-heading text-center text-faded d-none d-lg-block">
+            <span class="site-heading-upper text-primary mb-3">EMPRENDIMIENTO -By Team Pro</span>
+            <span class="site-heading-lower">MAGIC PEARL</span>
+        </h1>
+    </header>
+    <!-- Navegación-->
+    <nav class="navbar navbar-expand-lg navbar-dark py-lg-4" id="mainNav">
+        <div class="container">
+
+            <a class="navbar-brand text-uppercase fw-bold d-lg-none" href="index.html">Magic Pearl</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="index.html">Magic Pearl</a>
+                    </li>
+                    <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="about.html">Acerca de
+                            nosotros</a></li>
+                    <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="products.html">Productos</a>
+                    </li>
+                    <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="contact.html">Contáctanos</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!--Zonas de entrega-->
+    <section class="page-section cta">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-9 mx-auto">
+                    <div class="cta-inner bg-faded text-center rounded">
+                        <h2 class="section-heading mb-5">
+                            <span class="section-heading-upper">Servicio a domicilio disponible</span>
+                            <span class="section-heading-lower">Zonas de entrega: </span>
+                        </h2>
+                        <p><img class="img-fluid rounded about-heading-img mb-3 mb-lg-0">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1984260.6955515617!2d-90.25002745204678!3d13.748139876978417!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f6327a659640657%3A0x6f9a16eb98854832!2sEl%20Salvador!5e0!3m2!1ses-419!2ssv!4v1694659150929!5m2!1ses-419!2ssv"
+                                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </p>
+                        <ul class="list-unstyled list-hours mb-0 text-lg-right mx-auto">
+                            <li class="list-unstyled-item list-hours-item ">
+                                Cojutepeque
+                            </li>
+                            <li class="list-unstyled-item list-hours-item ">
+                                San Sebastián
+                            </li>
+                            <li class="list-unstyled-item list-hours-item ">
+                                San Rafael Cedros
+                            </li>
+                            <li class="list-unstyled-item list-hours-item ">
+                                Metrocentro SS
+                        </ul>
+
+                        <!--Formulario-->
+                        <p class="address mb-5">
+                            <em>
+                                <strong>Cualquier duda póngase en contacto con nosotros:</strong>
+                                <style>
+                                    #contenedorFormulario {
+                                        text-align: center;
+                                        margin: 0 auto;
+                                        width: 300px;
+                                        /* Ajusta el ancho del contenedor según tus preferencias */
+                                    }
+
+                                    #formularioPreguntas {
+                                        text-align: left;
+                                    }
+                                </style>
+
+                                <div id="contenedorFormulario">
+                                    <h1 class="site-heading text-center text-faded d-none d-lg-block">
+                                        <span class="site-heading-upper text-primary mb-3">Formulario de Contacto</span>
+                                    </h1>
+                                    <form id="formularioPreguntas">
+                                        <input type="text" class="form-control" style="width: 100%;"
+                                            placeholder="Nombre" id="nombre" required>
+                                        <br>
+                                        <input type="email" class="form-control" style="width: 100%;"
+                                            placeholder="Correo Electrónico" id="correo" required>
+                                        <br>
+                                        <textarea class="form-control" style="width: 100%;" placeholder="Mensaje"
+                                            id="mensaje" rows="4" required></textarea>
+                                        <br>
+                                        <button type="submit" class="btn btn-primary">Enviar</button>
+                                    </form>
+                                </div>
+
+                                <script>
+                                    const contenedorFormulario = document.getElementById("contenedorFormulario");
+
+                                    document.addEventListener("DOMContentLoaded", () => {
+                                        contenedorFormulario.style.display = "block";
+                                    });
+
+                                    document.getElementById("formularioPreguntas").addEventListener("submit", (e) => {
+                                        e.preventDefault();
+                                        // Puedes agregar código aquí para manejar el envío del formulario, por ejemplo, enviar los datos a tu servidor.
+                                        alert("Gracias por tu pregunta o sugerencia. Nos pondremos en contacto contigo pronto.");
+                                        // Reinicia el formulario
+                                        e.target.reset();
+                                    });
+                                </script>
+                                <br />
+
+                                <!--Contactos-->
+
+                                <h1 class="site-heading text-center text-faded d-none d-lg-block">
+                                    <span class="site-heading-upper text-primary mb-3">Cuentas oficiales</span>
+                                </h1>
+                                <div class="carta">
+
+                                    <div class="card">
+                                        <div class="card-body text-center">
+                                            <h4 class="text-uppercase m-0">Génesis Alvarado</h4>
+                                            <hr class="my-4 mx-auto" />
+                                            <div class="small text-black-50"><a
+                                                    href="mailto:genesis.alvarado@oportunidades.org.sv">genesis.alvarado@oportunidades.org.sv</a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="card">
+                                        <div class="card-body text-center">
+                                            <h4 class="text-uppercase m-0">Steven Trujillo</h4>
+                                            <hr class="my-4 mx-auto" />
+                                            <div class="small text-black-50"><a
+                                                    href="mailto:steven.trujillo@oportunidades.org.sv">steven.trujillo@oportunidades.org.sv</a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="card">
+                                        <div class="card-body text-center">
+                                            <h4 class="text-uppercase m-0">Yahid Campos</h4>
+                                            <hr class="my-4 mx-auto" />
+                                            <div class="small text-black-50"><a
+                                                    href="mailto:yahid.campos@oportunidades.org.sv">yahid.campos@oportunidades.org.sv</a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="card">
+                                        <div class="card-body text-center">
+                                            <h4 class="text-uppercase m-0">Carlos Caballeros</h4>
+                                            <hr class="my-4 mx-auto" />
+                                            <div class="small text-black-50"><a
+                                                    href="mailto:carlos.caballeros@oportunidades.org.sv">carlos.caballeros@oportunidades.org.sv</a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="card">
+                                        <div class="card-body text-center">
+                                            <h4 class="text-uppercase m-0">Elizabeth Rivas</h4>
+                                            <hr class="my-4 mx-auto" />
+                                            <div class="small text-black-50"><a
+                                                    href="mailto:elizabeth.rivas@oportunidades.org.sv">elizabeth.rivas@oportunidades.org.sv</a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <p class="mb-0">
+                                    <small><em>Síguenos en Instagram</em></small>
+                                    <br />
+                                    <a
+                                        href="https://www.bing.com/ck/a?!&&p=4a3f8d2cb7be3cbcJmltdHM9MTcxODc1NTIwMCZpZ3VpZD0zMDI2NTNiYi1mN2E0LTY3MjAtMTlhMi00NzE4ZjZiNDY2ZGMmaW5zaWQ9NTE1MA&ptn=3&ver=2&hsh=3&fclid=302653bb-f7a4-6720-19a2-4718f6b466dc&psq=magicpearl.sv+instagram&u=a1aHR0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9tYWdpY3BlYXJsLnN2Lw&ntb=1">magicpearl.sv</a>
+                                </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    </script>
+    </div>
+    </section>
+
+
+
+    <!--Confiar en Magic Pearl-->
+    <section class="page-section about-heading">
+        <div class="container">
+            <video class="img-fluid rounded about-heading-img mb-3 mb-lg-0" controls autoplay loop>
+                <source src="assets/img/collarpers.mp4" type="video/mp4">
+            </video> />
+            <div class="about-heading-content">
+                <div class="row">
+                    <div class="col-xl-9 col-lg-10 mx-auto">
+                        <div class="bg-faded rounded p-5">
+                            <h2 class="section-heading mb-4">
+                                <span class="section-heading-upper">¿Por qué confiar en</span>
+                                <span class="section-heading-lower">MAGIC PEARL?</span>
+                            </h2>
+                            <p class="mb-0">
+                                En MagicPearl, nuestro compromiso es transparente y genuino. Cada collar que vendemos de
+                                nuestras manos es el testimonio de la dedicación, el amor y la excelencia que ponemos en
+                                nuestro trabajo. Nuestro talentoso equipo comparte la visión de no solo satisfacer, sino
+                                sorprender al cliente. Al comprar en MagicPearl, te unes a una comunidad que valora
+                                autenticidad, calidad e innovación.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Footer-->
+    <footer class="footer text-faded text-center py-5">
+        <h1 class="site-heading text-center text-faded d-none d-lg-block">
+            <span class="site-heading-upper text-primary mb-3">Honor Code: "We have neither given nor received any
+                unauthorized aid"</span>
+        </h1>
+        <div class="container">
+            <p class="m-0 small">
+                <br>PROGRAMA OPORTUNIDADES © B2 SSSAT23 (⌐■_■)
+                <br>Elizabeth Rivas
+                <br>Steven Trujillo
+                <br>Yahid Campos
+                <br>Génesis Alvarado
+                <br>Carlos Caballeros
+                <br></li>
+            </p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
